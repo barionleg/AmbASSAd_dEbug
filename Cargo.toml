@@ -1,0 +1,15 @@
+[package]
+name = "ambassade-debug"
+version = "0.2.0"
+authors = ["Jan Allersma <jan@allersma.be>"]
+description = "A crate to submit postmortem debug information when an application crashes."
+license = "MIT"
+build = "build_scripts/build.rs"
+repository = "https://pagure.io/Ambassade-debug"
+documentation = "https://docs.rs/crate/ambassade-debug"
+
+[build-dependencies]
+git2 = "0.8"
+
+[dependencies]
+git2 = "0.8"
